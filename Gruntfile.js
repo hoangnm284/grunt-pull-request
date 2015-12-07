@@ -36,8 +36,7 @@ module.exports = function(grunt) {
                     repo: 'grunt-pull-request',
                     title: 'Title for pull request',
                     body: 'body for pull request',
-                    host: "git.com",
-                    pathPrefix: "/api/v3"
+                    debug: true
                 }
             }
         },

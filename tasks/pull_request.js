@@ -22,7 +22,7 @@
         user: process.env.GIT_USER,
         token: process.env.GIT_TOKEN,
         protocol: "https",
-        host: "git.com",
+        host: "api.github.com",
         pathPrefix: "/api/v3",
         timeout: 5000
     };
